@@ -10,6 +10,7 @@ def summon_captain_planet(planateer_calls)
     array[0] = array[0].upcase
     array.push("!")
     array.join
+  end
 end
 
 def long_planeteer_calls# code an argument here
