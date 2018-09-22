@@ -19,4 +19,10 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  i = 0
+  while i < ingredients.length
+    ingredients.each do |ingredient|
+      
+    end
+  end
 end
