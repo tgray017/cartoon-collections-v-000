@@ -26,3 +26,10 @@ def find_the_cheese(ingredients)
     end
   end
 end
+
+
+
+def find_the_cheese(ingredients)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  ingredients.find(cheese_types)
+end
