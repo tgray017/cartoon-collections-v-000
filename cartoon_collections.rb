@@ -8,6 +8,7 @@ def summon_captain_planet(planateer_calls)
   planateer_calls.collect do |call|
     array = call.split("")
     array[0] = array[0].upcase
+    array.push("!")
 end
 
 def long_planeteer_calls# code an argument here
