@@ -31,5 +31,5 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ingredients.find(cheese_types[0]||cheese_types[1]||cheese_types[2])
+  ingredients.find("cheddar")
 end
