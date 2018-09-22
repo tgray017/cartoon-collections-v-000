@@ -31,5 +31,5 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ingredients.find {|ingredient|
+  ingredients.find {|ingredient| ingredient == cheese_types[0] || ingredient == cheese_types[1] ||ingredient == cheese_types[2]}
 end
